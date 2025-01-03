@@ -1,0 +1,18 @@
+label.btn-light {
+  border: none;
+  background-color: transparent;
+  padding: 5px 10px;
+  color: gray;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+label.btn-light:hover {
+  color: black;
+}
+
+input[type="radio"]:checked + label {
+  color: blue;
+  font-weight: bold;
+}
